@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
+
+
+html,body{
+   
+   
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+
+body{
+    font-family: sans-serif;
+    line-height:1.7;
+}
+
+
+#nav-bar{
+    
+    top:0;
+    z-index: 10;
+    position: sticky;
+}
+
+.navbar{
+ background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,248,1) 50%, rgba(252,176,69,1) 100%);
+    
+}
+
+
+
+.navbar-brand{
+   
+  
+    color:#fff  !important;
+    
+   font-size:35px  !important;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    margin-left: 10px;
+    text-decoration: none;
+   margin-left: 20px;
+ 
+
+}
+
+.navbar-nav li{
+    padding:0 10px;
+    
+}
+
+.navbar-nav li a{
+  color:white; 
+  font-weight: 800 !important;
+  font-size: 20px;
+  padding-top: 20px;
+ 
+}
+
+.fa-solid{
+    color:white;
+    font-size: 30px !important;
+}
+.hoverr a:hover{
+    background-color: #fff;
+    color: #8e44ad;
+}
+
+.navbar-nav li a:hover{
+  background-color: white;
+  border-radius: 16px;
+  color: rgba(253,29,248,1) ;
+  
+}
+
+/* Banner */
+
+#banner{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,248,1) 50%, rgba(252,176,69,1) 100%);
+    color:white;
+    padding-top:2%;
+    line-height: 2;
+}
+
+#banner p{
+    font-size: 20px;
+    font-family:  sans-serif;
+    font-weight:600;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.promo-title{
+    font-size:40px;
+    font-weight: 800;
+    margin-top: 100px;
+}
+
+.button a{
+    background-color: #fff;
+    color:#8e44ad;
+    border:blueviolet;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+ .second a{
+    background-color: #fff;
+    color:#8e44ad;
+    border:blueviolet;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+
+.bottom-img{
+    width: 100%;
+}
+
+
+@media screen and (min-width:0px) and (max-width:409px){
+     .banner2 .main-img-51{
+       margin-top: 0px;
+       
+    }
+}
+
+/* Services */
+
+#services{
+    padding: 80px 0;
+}
+
+#services p{
+
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#services h1{
+   font-weight: 600;
+}
+
+.service-img{
+    width:150px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    
+}
+
+
+
+
+
+.services{
+    padding:20px;
+}
+
+#services h1{
+    padding:5px;
+   
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+
+
+}
+
+.title::before{
+    content: '';
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,248,1) 50%, rgba(252,176,69,1) 100%);
+    height:5px;
+    width:180px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+   transform:translateY(63px);
+}
+
+
+
+
+/* About us */
+
+#about{
+    background-color: #ecf0f1;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+#about p{
+   margin-top:10px;
+   margin-left: 20px;
+}
+#about h1{
+    font-family: 'Roboto', sans-serif;
+    padding:5px;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top:70px;
+}
+
+/* Reviews */
+
+#reviews{
+    margin:50px 0;
+}
+#reviews h1{
+    
+   
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    margin-bottom: 80px;
+}
+
+.reviews{
+    border-left:4px solid #8e44ad;
+    margin-top: 50px;
+    margin-bottom: 50px ;
+}
+
+.reviews img{
+    height:80px;
+    width:80px;
+    border-radius: 50%;
+    margin:0 10px;
+}
+
+.user-content{
+    display:inline-block;
+    font-size:15px;
+    margin-top: 5px;
+}
+
+
+
+/* Contact Form */
+
+#form {
+    background-color: #ecf0f1;
+    
+}
+
+#form h1{
+    
+   padding-top: 30px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+
+
+.top1{
+    margin-top: 40px;
+}
+
+.imgg{
+    margin-top: 80px;
+    margin-bottom: 40px;
+    height:400px;
+    width:500px;
+
+}
+
+
+
+.title2::before{
+    content: '';
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,248,1) 50%, rgba(252,176,69,1) 100%);
+    height:5px;
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+   transform:translateY(63px);
+   
+}
+
+
+/* Social Media */
+
+#social-media{
+    
+   margin-top: 100px;
+   margin-bottom: 100px;
+   padding-top: 30px;
+   padding-bottom: 40px;
+    
+
+}
+
+#social-media p{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding:5px;
+   
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+
+
+.social-icons img{
+    width:60px;
+    transition: 0.5s;
+    padding-top: 20px;
+  
+
+}
+
+.social-icons a:hover img{
+    transform:translateY(-10px);
+}
+
+/* Footer */
+
+#footer{
+
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,248,1) 50%, rgba(252,176,69,1) 100%);
+    color:#fff;
+}
+
+
+
+
+.footer-box{
+    margin-bottom: 20px;
+}
+
+.footer-links .links{
+    color:#fff;
+    margin-top: 10px;;
+}
+
+.footer-links .links:hover{
+    background-color: #fff;
+    color:#8e44ad;
+
+}
+
+.link{
+    text-decoration: none;
+    color:#fff;
+}
+
+ .footer-box .link:hover{
+    background-color: #fff;
+    color:#8e44ad;
+    border-radius: 0.7rem;
+}
+
+.footer-box h4{
+    padding:5px;
+   
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+
+}
+
+
+.footer-box img{
+    width:120px;
+    margin-bottom: 20px;
+}
+
+.contact{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-box .foot{
+    margin-right: 8px;
+    font-size:30px;
+    height : 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right,#8e44ad,#9b59b6);
+}
+
+.Subscribe{
+   
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-box .form-control{
+    box-shadow: none !important;
+    border-radius: 0;
+    border:none;
+    margin-top:30px;
+    max-width: 250px;
+}
+
+ .btn-primary{
+
+    box-shadow: none !important;
+    border-radius: 0;
+    border:none;
+    margin-top: 25px;   
+    background-image: linear-gradient(to right,#8e44ad,#9b59b6);
+}
+
+hr{
+    background-color: #fff;
+}
+
+.copyright{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.footer-links{
+    list-style: none ;
+    margin: 0;
+}
+
+.links a{
+    display: block;
+}
+
+
+/* Index 2 */
+
+.about-que{
+    margin-top: 150px;
+}
+
+.que-head{
+   
+    font-size: 50px;
+    margin-top: 30px;
+    background-image:  linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,248,1) 50%, rgba(252,176,69,1) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;     
+}
+
+.que-para{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;   
+    font-size: 25px;
+    margin-top: 20px;
+}
+ 
+.about-main-head{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;   
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 12%;
+    text-transform: uppercase;
+    
+}
+
+@media screen and (min-width:0px) and (max-width:576px){
+
+    .about-main-head{
+        font-size: 45px ;
+    }
+
+}
+
+#nav-bar2{
+    
+    position: relative !important;
+    top:0;
+    left: 0;
+    z-index: 50;
+    position: sticky;
+    visibility:visible;
+}
+
+.card-title{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    padding-bottom: 20px;
+
+}
+.card-text{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+
+}
+
+.card{
+
+    border-radius: 1.5rem;
+    
+}
+
+.card-body:hover{
+    content: "";
+    border-radius: 0rem;
+    cursor: pointer;
+    border: none;  
+    font-weight: bold;
+    
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    margin-top: 5rem;
+    
+
+}
+
+.main-event-link{
+
+    text-decoration: none;
+    color:#fff;
+    overflow: hidden;
+    padding:2rem 0; 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.main-event-link:hover{
+    color: black;
+    background-image:  linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,248,1) 50%, rgba(252,176,69,1) 100%);
+    border-radius: 0.5rem;
+    margin: 2rem 2rem;
+    padding: 2rem 1rem;
+
+}
+
+@media screen and (min-width:0px) and (max-width:576px){
+
+    .card{
+        margin-bottom: 100px;
+    }
+
+}
+
+.event-link{
+    padding: 2.5rem 1rem;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,248,1) 50%, rgba(252,176,69,1) 100%);
+    border: none;
+    overflow: hidden;
+    
+}
+
+.card button{
+    border: none;
+}
+
+
+.card button:hover{
+   background: #fff;
+  
+}
+
+.log-button{
+    border-radius: 0.9rem;
+    height: 55px;
+    padding: 0 0 ;
+    border: none;
+    width: 100px;
+    overflow: hidden;
+   
+}
+
+
+
+.reg-button{
+    border-radius: 0.9rem;
+    height: 55px;
+    padding: 0 0 ;
+    width:100px;
+    border: none;
+}
+
+@media screen and (min-width:0px) and (max-width:991px){
+
+    .log{
+        margin-top: 20px;
+    }
+}
+
+
+.webinar{
+    background-color: #D3D3D3;
+}
+.downward{
+    border-radius: 50%;
+    width: 30rem;
+    height: 1.5rem;
+    display: inline-block;
+}
+.downward-arrow{
+    display: inline-block;
+    background-color: #fff;
+    width: 4rem;
+    border-radius: 50%;
+    height: 2rem;
+    font-weight: 900;
+    color:black;
+    
+
+}
+
+.downward1{
+    border-radius: 50%;
+    width: 30rem;
+    height: 1.5rem;
+    display: inline-block;
+}
+.downward-arrow1{
+    display: inline-block;
+    background-color: #D3D3D3;
+    width: 4rem;
+    border-radius: 50%;
+    height: 2rem;
+    font-weight: 900;
+    color:black;
+    
+
+}
+
+
+
+

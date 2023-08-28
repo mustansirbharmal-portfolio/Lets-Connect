@@ -144,7 +144,7 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,248,1) 50%
     margin-bottom: 20px;
 }
 
-.footer-links .links a{
+.footer-links .links{
     color:#fff;
     margin-top: 10px;
     font-weight: 800;
